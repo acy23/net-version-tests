@@ -9,26 +9,26 @@ output: -
 scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
      * default: 20 iterations shared among 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
 
-INFO[0000] Response from localhost:7209/provinces: 200   source=console
-INFO[0001] Response from localhost:7209/provinces: 200   source=console 
-INFO[0002] Response from localhost:7209/provinces: 200   source=console
-INFO[0003] Response from localhost:7209/provinces: 200   source=console
-INFO[0004] Response from localhost:7209/provinces: 200   source=console
-INFO[0005] Response from localhost:7209/provinces: 200   source=console
-INFO[0006] Response from localhost:7209/provinces: 200   source=console
-INFO[0007] Response from localhost:7209/provinces: 200   source=console
-INFO[0008] Response from localhost:7209/provinces: 200   source=console
-INFO[0009] Response from localhost:7209/provinces: 200   source=console
-INFO[0010] Response from localhost:7209/provinces: 200   source=console
-INFO[0011] Response from localhost:7209/provinces: 200   source=console
-INFO[0012] Response from localhost:7209/provinces: 200   source=console
-INFO[0013] Response from localhost:7209/provinces: 200   source=console
-INFO[0014] Response from localhost:7209/provinces: 200   source=console
-INFO[0015] Response from localhost:7209/provinces: 200   source=console
-INFO[0016] Response from localhost:7209/provinces: 200   source=console
-INFO[0017] Response from localhost:7209/provinces: 200   source=console
-INFO[0018] Response from localhost:7209/provinces: 200   source=console
-INFO[0019] Response from localhost:7209/provinces: 200   source=console
+    INFO[0000] Response from localhost:7209/provinces: 200   source=console
+    INFO[0001] Response from localhost:7209/provinces: 200   source=console 
+    INFO[0002] Response from localhost:7209/provinces: 200   source=console
+    INFO[0003] Response from localhost:7209/provinces: 200   source=console
+    INFO[0004] Response from localhost:7209/provinces: 200   source=console
+    INFO[0005] Response from localhost:7209/provinces: 200   source=console
+    INFO[0006] Response from localhost:7209/provinces: 200   source=console
+    INFO[0007] Response from localhost:7209/provinces: 200   source=console
+    INFO[0008] Response from localhost:7209/provinces: 200   source=console
+    INFO[0009] Response from localhost:7209/provinces: 200   source=console
+    INFO[0010] Response from localhost:7209/provinces: 200   source=console
+    INFO[0011] Response from localhost:7209/provinces: 200   source=console
+    INFO[0012] Response from localhost:7209/provinces: 200   source=console
+    INFO[0013] Response from localhost:7209/provinces: 200   source=console
+    INFO[0014] Response from localhost:7209/provinces: 200   source=console
+    INFO[0015] Response from localhost:7209/provinces: 200   source=console
+    INFO[0016] Response from localhost:7209/provinces: 200   source=console
+    INFO[0017] Response from localhost:7209/provinces: 200   source=console
+    INFO[0018] Response from localhost:7209/provinces: 200   source=console
+    INFO[0019] Response from localhost:7209/provinces: 200   source=console
 
      data_received..................: 722 kB 36 kB/s
      data_sent......................: 4.5 kB 221 B/s
