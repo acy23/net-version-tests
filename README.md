@@ -2,22 +2,15 @@
 command -> k6 run --iterations 20 benchmark.js
 
 result:
+execution: local
+script: benchmark.js
+output: -
 
-         /\      Grafana   /‾‾/
-    /\  /  \     |\  __   /  /
-   /  \/    \    | |/ /  /   ‾‾\
-  /          \   |   (  |  (‾)  |
- / __________ \  |_|\_\  \_____/
-
-     execution: local
-        script: benchmark.js
-        output: -
-
-     scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
-              * default: 20 iterations shared among 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
+     * default: 20 iterations shared among 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
 
 INFO[0000] Response from localhost:7209/provinces: 200   source=console
-INFO[0001] Response from localhost:7209/provinces: 200   source=console
+INFO[0001] Response from localhost:7209/provinces: 200   source=console 
 INFO[0002] Response from localhost:7209/provinces: 200   source=console
 INFO[0003] Response from localhost:7209/provinces: 200   source=console
 INFO[0004] Response from localhost:7209/provinces: 200   source=console
@@ -58,18 +51,12 @@ INFO[0019] Response from localhost:7209/provinces: 200   source=console
 .NET 8 results with 20 iterations
 command -> k6 run --iterations 20 benchmark.js
 
-         /\      Grafana   /‾‾/
-    /\  /  \     |\  __   /  /
-   /  \/    \    | |/ /  /   ‾‾\
-  /          \   |   (  |  (‾)  |
- / __________ \  |_|\_\  \_____/
+execution: local
+script: benchmark.js
+output: -
 
-     execution: local
-        script: benchmark.js
-        output: -
-
-     scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
-              * default: 20 iterations shared among 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
+scenarios: (100.00%) 1 scenario, 1 max VUs, 10m30s max duration (incl. graceful stop):
+     * default: 20 iterations shared among 1 VUs (maxDuration: 10m0s, gracefulStop: 30s)
 
 INFO[0000] Response from localhost:7208/provinces: 200   source=console
 INFO[0001] Response from localhost:7208/provinces: 200   source=console
