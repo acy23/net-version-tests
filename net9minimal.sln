@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net8minimal", "net8minimal\net8minimal.csproj", "{64E31269-40AF-46DC-B610-60FA612AF078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77B8C336-58A6-4B8E-9AF6-7885788E4E0A}"
+	ProjectSection(SolutionItems) = preProject
+		data.json = data.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net9api", "net9api\net9api.csproj", "{395EBA8F-15CC-41C5-9A03-D7D416D5F71F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64E31269-40AF-46DC-B610-60FA612AF078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E31269-40AF-46DC-B610-60FA612AF078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E31269-40AF-46DC-B610-60FA612AF078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E31269-40AF-46DC-B610-60FA612AF078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395EBA8F-15CC-41C5-9A03-D7D416D5F71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395EBA8F-15CC-41C5-9A03-D7D416D5F71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395EBA8F-15CC-41C5-9A03-D7D416D5F71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395EBA8F-15CC-41C5-9A03-D7D416D5F71F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
